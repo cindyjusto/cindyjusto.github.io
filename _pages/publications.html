@@ -1,36 +1,20 @@
 ---
-layout: archive
 title: "Publications"
+layout: archive
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Work in Progress
 
-{% include base_path %}
+"Rules for the Intangibles: How Digital Provisions Shape Services Trade."
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+"Learning from Giants: FDI Spillovers and Services Export Dynamics Under Trade Policy Shocks."
 
+"Heterogeneity in Trade in Service Barriers: Firm-Level Evidence on the Impact of the EU-UK Trade and Cooperation Agreement" (with Enrico Vanino and Antonio Navas).
 
+## Selected Policy Publications
 
+Kikkawa, A., Justo, C., and Sirivunnabood, P. (2021). "Migtech: How Technology is Reshaping Labour Mobility and the Landscape of International Migration." In [*Labor Migration in Asia: Impacts of the COVID-19 Crisis and the Post-Pandemic Future*](https://www.adb.org/publications/labor-migration-asia-impacts-covid-19-crisis-post-pandemic-future). ADBI, OECD, and ILO.
+
+Sawada, Y., Park, C. Y., Khan, F., and Justo, C. (2020). "Trade, Global Value Chains, and Inclusive Growth in Asia and the Pacific." In [*The Handbook of Global Trade Policy*](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119167402), edited by Andreas Klasen. Wiley.
