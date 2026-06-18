@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Cindy Jane Justo"
 title_separator          : "|"
 name                     : &name "Cindy Jane Justo"
-description              : &description "Personal website of Cindy Jane Justo, PhD candidate in Economics at the University of Sheffield."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal website of Cindy Jane Justo, PhD student in Economics at the University of Sheffield."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cindyjusto.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Cindy Jane Justo"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in Economics, University of Sheffield"
+  bio              : "PhD Student in Economics, University of Sheffield"
   # location         : ""
   # employer         : ""
   uri              : # URL
