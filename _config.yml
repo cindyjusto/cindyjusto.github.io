@@ -23,7 +23,7 @@ repository               : "cindyjusto/cindyjusto.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile3.PNG"
+  avatar           : "profile3.PNG"
   name             : "Cindy Jane Justo"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Economics, University of Sheffield"
